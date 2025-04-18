@@ -1,0 +1,132 @@
+header{
+    border: 1px solid #1c013a;
+}
+
+body{
+    background: linear-gradient(320deg, #1d063bec, #1b112a, #200542ec);
+}
+.sub_titulo{
+    height: 60px;
+}
+
+.titulo{
+    font-size: 40px;
+    color: rgba(152, 92, 174, 0.822);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub{
+    display: flex;
+    color: white;
+    justify-content: center;
+    justify-items: center;
+}
+
+.imagem{
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+ul{
+    display: flex;
+    justify-content: flex-end;
+    justify-items: flex-end;
+}
+a{
+    display: flex;
+    text-decoration: none;
+    padding: 0px 10px;
+    font-size: 25px;
+    display: inline;
+}
+
+.link{
+    color: white;
+}
+
+li{
+    display: flex;
+    display: inline;
+}
+
+a:hover{
+    color: blueviolet;
+    text-decoration: none;
+}
+
+.texto_cd{
+    right: 50vh;
+    transform: translateY(-8vh);
+    position: absolute;
+    text-align: center;
+    display: flex;
+    color: white;
+    width: 50%;
+    padding: 0px 15px;
+    border: 1px solid white;
+    border-radius: 16px;
+}
+
+.texto_ci{
+    position: absolute;
+    text-align: center;
+    display: flex;
+    color: white;
+    width: 28%;
+    padding: 0px 10px;
+    border: 1px solid white;
+    border-radius: 16px;
+    transform: translateY(-30vh);
+
+}
+
+.texto_pipe{
+    text-align: center;
+    position: absolute;
+    color: white;
+    padding: 0px 10px;
+    border: 1px solid white;
+    border-radius: 16px;
+    left: 70%;
+    transform: translateY(-30vh);
+}
+
+footer{
+    font-size: 10px;
+    color: white;
+    height: 94px;
+}
+.fut{
+    display: flex;
+    transform: translateY(80px);
+}
+
+.ci{
+    position: absolute;
+    left: 28vh;
+    color: white;
+    font-size: 50px;
+    transform: translateY(-50vh);
+}
+
+.pipe{
+    left: 78%;
+    position: absolute;
+    font-size: 50px;
+    color: white;
+    justify-content: flex-end;
+    justify-items: flex-end;
+    transform: translateY(-50vh);
+}
+
+.cd{
+    color: white;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    font-size: 50px;
+    transform: translateY(-10vh);
+}
