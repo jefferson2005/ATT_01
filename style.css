@@ -172,6 +172,13 @@ footer{
 
 .linkGit{
     color: #F05033;
+    margin-top: 4px;
+    display: inline-block;
+    display: grid;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
     /*Conteúdo 1 Git*/
@@ -179,6 +186,13 @@ footer{
 .texto_git{
     color:white;
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
 }
 
     /*sub titulo do GitHub */
@@ -218,6 +232,13 @@ footer{
 .texto_gitHub p{
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
 }
 
     /*Sub-titulo das Ferramentas do Git*/
@@ -243,8 +264,13 @@ footer{
     /* Conteúdo 3 GitHub */
 
 .funçõesGit p1{
-    color: #fff;
+    color: #ffb742;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
 }
     /*Sub titulo de como usar*/
 
@@ -266,23 +292,38 @@ footer{
     align-items: center;
 }
 
+    /* Ferramentas Explicação Git */
+
+.funçõesGit{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#fff
+}
+
     /* Comandos Principais */
 
 .comandos{
-    background-color: #3f2664;
+    background-color: #F05033;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 100px;
     margin-top: 50px;
     padding: 0 50;
+    display: flex;
 }
 
-.comandos h2{
-    color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
+.menu-git .comandos{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
 }
 
-.comandos p{
-    color:#fff;
+.menu-git .comandos > div{
+    flex: 1;
+    padding: 15px;
+    border: 1px solid #F05033;
+    border-radius: 8px;
+    background-color: #ffffff;
+    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
